@@ -1,0 +1,24 @@
+{
+  "name": "nft-wrapper-contract",
+  "version": "1.0.0",
+  "description": "Solidity contracts to both create an NFT minter and Manager/Wrapper contract to facilitate a marketplace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeremP/NFT-Wrapper-Contract.git"
+  },
+  "author": "Kerem P.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KeremP/NFT-Wrapper-Contract/issues"
+  },
+  "homepage": "https://github.com/KeremP/NFT-Wrapper-Contract#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.3",
+    "chai": "^4.3.4",
+    "ethers": "^5.5.1"
+  }
+}
