@@ -10,12 +10,11 @@ The wrapper contract is used a layer of abstraction between the base token contr
 A better solution would be to adjust the approve() function, as it acts on the token level, and rather than setting the Wrapper as an operator for an owner's entire erc721 balance, allow users to opt-in to using the Wrapper by providing an option to call the approve() function. The only problem with this approach is that, as approve() affects state, it does cost gas.
 
 
-#Tests
+# Tests
 To run tests, you must first locally fork the ETH mainnet. I prefer ganahce-cli (https://github.com/trufflesuite/ganache)
 
 ```
 ganache-cli --fork <RPC_URL> --i 999  
-
 ```
 
 A bash script is included in the test folder to make this process easier. it also saves all generated keys into a .json file for ease of access when running tests.
@@ -26,9 +25,8 @@ After forking a local mainnet node, run:
 
 ```
 truffle test ./test/wrapper-test.js
-
 ```
 The path argument can of course be a path to whichever .js file you're using for testing.
 
-#TODO:
+# TODO:
 - Update documentation
