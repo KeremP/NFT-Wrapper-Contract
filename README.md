@@ -30,3 +30,4 @@ The path argument can of course be a path to whichever .js file you're using for
 
 # TODO:
 - Update documentation
+- Security Updates
