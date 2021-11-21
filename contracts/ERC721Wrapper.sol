@@ -4,7 +4,17 @@ import "./ERC721Token.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
-contract ERC721Wrapper is Ownable {
+contract ReentrancyGuard{
+  uint private _executing;
+  modifier reentrancyGuard(){
+    require(_executing!=1,"No");
+    _executing=1;
+    _;
+    _executing=2;
+  }
+}
+
+contract ERC721Wrapper is ReentrancyGuard, Ownable {
   using SafeMath for uint256;
   uint256 private initPrice = 50000000000000000; // 0.05 ETH
 
@@ -20,7 +30,6 @@ contract ERC721Wrapper is Ownable {
   constructor(
     address payable TokenAddress
     )
-    public
     {
       baseToken = ERC721Token(TokenAddress);
       baseTokenAddress = TokenAddress;
@@ -56,7 +65,7 @@ contract ERC721Wrapper is Ownable {
       return tokenPrices[tokenID];
     }
 
-    function sendFee(address minter, string memory uri, uint256 id, uint256 newPrice) public payable{
+    function sendFee(address minter, string memory uri, uint256 id, uint256 newPrice) public reentrancyGuard payable{
       require(checkExist(id) != true, "Token already minted.");
       require(msg.value >=  initPrice, "Must send 0.05 ETH minting fee.");
       (bool sent, bytes memory data) = address(this).call{value:msg.value}("");
@@ -72,7 +81,7 @@ contract ERC721Wrapper is Ownable {
       //must pay fee for each mint
       paidForToken[recipient] = false;
       tokenPrices[tokenID] = newPrice;
-      uint256 _newTokenID = baseToken.mintNFT(recipient, address(this), tokenURI, tokenID, newPrice);
+      uint256 _newTokenID = baseToken.mintNFT(recipient, tokenURI, tokenID);
       emit Minted(recipient, _newTokenID);
       return _newTokenID;
 

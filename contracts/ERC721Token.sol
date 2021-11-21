@@ -12,15 +12,15 @@ contract ERC721Token is ERC721URIStorage, ERC721Enumerable {
   using SafeMath for uint256;
   Counters.Counter private _tokenIds;
   uint256 private _cap;
-  mapping (uint256 => uint256) private tokenPrices;
+
   event Minted(address indexed recipient, uint256 tokenID);
 
-  constructor(uint256 cap) public ERC721("MarsToken", "MARS"){
+  constructor(uint256 cap) ERC721("MarsToken", "MARS"){
     require(cap > 0, "MarsToken: cap must be non-zero");
     _cap = cap;
   }
 
-  function mintNFT(address recipient, address WrapperContract, string memory uri, uint256 tokenID, uint256 newPrice)
+  function mintNFT(address recipient, string memory uri, uint256 tokenID)
     public onlyOwner
     returns (uint256)
   {
@@ -32,7 +32,6 @@ contract ERC721Token is ERC721URIStorage, ERC721Enumerable {
     _safeMint(recipient, tokenID);
     _setTokenURI(tokenID, uri);
     setApprovalForAll(recipient, owner(), true);
-    tokenPrices[tokenID] = newPrice;
     return tokenID;
   }
 
