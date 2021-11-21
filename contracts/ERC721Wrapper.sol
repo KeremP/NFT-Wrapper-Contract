@@ -114,6 +114,10 @@ contract ERC721Wrapper is ReentrancyGuard, Ownable {
       return baseToken.balanceOf(owner);
     }
 
+    function byIndex(address owner, uint256 index) public view returns(uint256)
+    {
+      return baseToken.tokenOfOwnerByIndex(owner, index);
+    }
 
 
 

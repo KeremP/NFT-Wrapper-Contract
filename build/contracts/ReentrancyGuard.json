@@ -1,75 +1,75 @@
 {
   "contractName": "ReentrancyGuard",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Wrapper.sol\":\"ReentrancyGuard\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Token.sol\":{\"keccak256\":\"0xe8eb5d9c5219be82a66d8daafebfa189ba3ac1f1fdd280a7c3b8504606f804ff\",\"urls\":[\"bzz-raw://e52ba1fdb8e3c492e496fc15818161dab863f15226ea92b8a467ad176f3516b2\",\"dweb:/ipfs/QmXso62LbDYRW6W1LK7qAQ7VGYuDK622rf7s9f4FV694m7\"]},\"/C/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Wrapper.sol\":{\"keccak256\":\"0xf5b8f914af2e202735d42ccccc02afaac164f18f864263e9fee7c25b92bfb710\",\"urls\":[\"bzz-raw://a3a29413bb26c4572d84d0243353666c9bf8554d693b84022df01cae81841287\",\"dweb:/ipfs/QmdM7nCD3pdi9pxLdxTT5D56YhPjF5YzNRfLJvqzN6R211\"]},\"@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0x6bb804a310218875e89d12c053e94a13a4607cdf7cc2052f3e52bd32a0dc50a1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b2ebbbe6d0011175bd9e7268b83de3f9c2f9d8d4cbfbaef12aff977d7d727163\",\"dweb:/ipfs/Qmd5c7Vxtis9wzkDNhxwc6A2QT5H9xn9kfjhx7qx44vpro\"]},\"@openzeppelin/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0x883432c2cebc9466540889c7ae42fcce3ba83a94e5d69c6f6ddc815126dd907b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://31003b2ff8a134e5d68bc159fbd238265823df2e9c457513e5ea5b7336ca8e81\",\"dweb:/ipfs/QmQ9QERLQhjioiWjV8kWivkyGRvkTwD3ef7L5cs981g6yw\"]},\"@openzeppelin/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0xb2d8d5182e4efafc451998828e75a698f3b0d32062739d899feea2856882a07e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dd37645ab614aa8830c533b3a743fcc7170151f2408f34c22ddca56eab02438a\",\"dweb:/ipfs/Qmck5QjsUUUAvyGt38BGQFD485u7ub56krjCg5yAHvYXVU\"]},\"@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0xd9517254724276e2e8de3769183c1f738f445f0095c26fd9b86d3c6687e887b9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0e604bcdcd5e5b2fb299ad09769cde6db19d5aa1929d1b5e939234a0f10d7eb8\",\"dweb:/ipfs/Qmd8hXE3GZfBHuWx3RNiYgFW2ci7KvHtib8DiwzJ2dgo9V\"]},\"@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol\":{\"keccak256\":\"0x41dc7bf7f69c668eb98aa078c5140a4d3c3b097124ee4b6058a649ca99688300\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://621b0e2f8b95aa04707f3106f48a8c7cfab2d6fbe2dd8253e70b0b024daee683\",\"dweb:/ipfs/QmTptvu7MJ6QcogPJUxkDEkdKm97KGTC28bhsZKu4sex4M\"]},\"@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol\":{\"keccak256\":\"0x188d038a65a945481cc13fe30db334472dfbed61f7959d4478d05feb6303b1ea\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7aec4efa22389811ffa393463569410bbca1ecaa551bc94d69020bc9567e9277\",\"dweb:/ipfs/QmPwk5uVSHPQkepebrZSQ9xqgXdPABKqHwJZ2HkzNByLRE\"]},\"@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol\":{\"keccak256\":\"0xa69205e5009601cf13be78b1e2f500e1e3b1d8012f22d966e63975273f602038\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d919a0061e43f9878f6171b7f853cb92093805cd1160858c1884195a639b40a0\",\"dweb:/ipfs/QmRZsS3EYuLp75nBym1QQ4y6aQXGew75wSbv1uwqkvouUK\"]},\"@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol\":{\"keccak256\":\"0xd32fb7f530a914b1083d10a6bed3a586f2451952fec04fe542bcc670a82f7ba5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://af63ab940a34687c45f0ad84960b048fc5f49330c92ccb422db7822a444733b9\",\"dweb:/ipfs/QmUShaQEu8HS1GjDnsMJQ8jkZEBrecn6NuDZ3pfjY1gVck\"]},\"@openzeppelin/contracts/utils/Address.sol\":{\"keccak256\":\"0x3336baae5cf23e94274d75336e2d412193be508504aee185e61dc7d58cd05c8a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://39a05eec7083dfa0cc7e0cbfe6cd1bd085a340af1ede93fdff3ad047c5fb3d8e\",\"dweb:/ipfs/QmVApz5fCUq2QC8gKTsNNdCmcedJ3ETHp68zR5N3WUKS4r\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0x90565a39ae45c80f0468dc96c7b20d0afc3055f344c8203a0c9258239f350b9f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://26e8b38a7ac8e7b4463af00cf7fff1bf48ae9875765bf4f7751e100124d0bc8c\",\"dweb:/ipfs/QmWcsmkVr24xmmjfnBQZoemFniXjj3vwT78Cz6uqZW1Hux\"]},\"@openzeppelin/contracts/utils/Counters.sol\":{\"keccak256\":\"0x78450f4e3b722cce467b21e285f72ce5eaf361e9ba9dd2241a413926246773cd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f103065051300cd995fd4599ba91188d4071b92175b52f26110e02db091617c0\",\"dweb:/ipfs/QmSyDz67R2HCypDE8Pacn3voVwxw9x17NM66q47YgBnGqc\"]},\"@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0x391d3ba97ab6856a16b225d6ee29617ad15ff00db70f3b4df1ab5ea33aa47c9d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d636ba90bbbeed04a1ea7fe9ec2466757e30fd38ba2ca173636dbf69a518735e\",\"dweb:/ipfs/QmQwCB2BHnEuYR22PYt9HkpbgeFDhq4rHmaYqAZbX3WRC7\"]},\"@openzeppelin/contracts/utils/introspection/ERC165.sol\":{\"keccak256\":\"0x5718c5df9bd67ac68a796961df938821bb5dc0cd4c6118d77e9145afb187409b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d10e1d9b26042424789246603906ad06143bf9a928f4e99de8b5e3bdc662f549\",\"dweb:/ipfs/Qmejonoaj5MLekPus229rJQHcC6E9dz2xorjHJR84fMfmn\"]},\"@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0xa28007762d9da9db878dd421960c8cb9a10471f47ab5c1b3309bfe48e9e79ff4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://796ab6e88af7bf0e78def0f059310c903af6a312b565344e0ff524a0f26e81c6\",\"dweb:/ipfs/QmcsVgLgzWdor3UnAztUkXKNGcysm1MPneWksF72AvnwBx\"]},\"@openzeppelin/contracts/utils/math/SafeMath.sol\":{\"keccak256\":\"0x8666f020bd8fc9dc14f07e2ebc52b5f236ab4cdde7c77679b08cb2f94730043b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://163776cbf565c722232393aa2d62cbe8a2ffb5805986abf4906c00e1e07450a6\",\"dweb:/ipfs/QmPZoN9T3cb6o8bGhjBPZcz7im8T8DWhpr3tjLwhJJHx9N\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220f398e3aec3a3e708fd24c569156d8f0207a1219d654c34655abf09eb5f0fa0c364736f6c63430008000033",
-  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220f398e3aec3a3e708fd24c569156d8f0207a1219d654c34655abf09eb5f0fa0c364736f6c63430008000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Wrapper.sol\":\"ReentrancyGuard\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Token.sol\":{\"keccak256\":\"0xe8eb5d9c5219be82a66d8daafebfa189ba3ac1f1fdd280a7c3b8504606f804ff\",\"urls\":[\"bzz-raw://e52ba1fdb8e3c492e496fc15818161dab863f15226ea92b8a467ad176f3516b2\",\"dweb:/ipfs/QmXso62LbDYRW6W1LK7qAQ7VGYuDK622rf7s9f4FV694m7\"]},\"/C/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Wrapper.sol\":{\"keccak256\":\"0xffd512d21479ea0c1dfc459f4799b742186e52a01bfd5bf71c007960e6f716bb\",\"urls\":[\"bzz-raw://d026c3d8eb3fc82c563df87e1ad503dced5fc1675cb99e69e387fc7024b29ae3\",\"dweb:/ipfs/QmagwPNvnMD6gG4hQXddd4wWPPifBgkne3Gu4wyDMfN5ke\"]},\"@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0x6bb804a310218875e89d12c053e94a13a4607cdf7cc2052f3e52bd32a0dc50a1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b2ebbbe6d0011175bd9e7268b83de3f9c2f9d8d4cbfbaef12aff977d7d727163\",\"dweb:/ipfs/Qmd5c7Vxtis9wzkDNhxwc6A2QT5H9xn9kfjhx7qx44vpro\"]},\"@openzeppelin/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0x883432c2cebc9466540889c7ae42fcce3ba83a94e5d69c6f6ddc815126dd907b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://31003b2ff8a134e5d68bc159fbd238265823df2e9c457513e5ea5b7336ca8e81\",\"dweb:/ipfs/QmQ9QERLQhjioiWjV8kWivkyGRvkTwD3ef7L5cs981g6yw\"]},\"@openzeppelin/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0xb2d8d5182e4efafc451998828e75a698f3b0d32062739d899feea2856882a07e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dd37645ab614aa8830c533b3a743fcc7170151f2408f34c22ddca56eab02438a\",\"dweb:/ipfs/Qmck5QjsUUUAvyGt38BGQFD485u7ub56krjCg5yAHvYXVU\"]},\"@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0xd9517254724276e2e8de3769183c1f738f445f0095c26fd9b86d3c6687e887b9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0e604bcdcd5e5b2fb299ad09769cde6db19d5aa1929d1b5e939234a0f10d7eb8\",\"dweb:/ipfs/Qmd8hXE3GZfBHuWx3RNiYgFW2ci7KvHtib8DiwzJ2dgo9V\"]},\"@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol\":{\"keccak256\":\"0x41dc7bf7f69c668eb98aa078c5140a4d3c3b097124ee4b6058a649ca99688300\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://621b0e2f8b95aa04707f3106f48a8c7cfab2d6fbe2dd8253e70b0b024daee683\",\"dweb:/ipfs/QmTptvu7MJ6QcogPJUxkDEkdKm97KGTC28bhsZKu4sex4M\"]},\"@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol\":{\"keccak256\":\"0x188d038a65a945481cc13fe30db334472dfbed61f7959d4478d05feb6303b1ea\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7aec4efa22389811ffa393463569410bbca1ecaa551bc94d69020bc9567e9277\",\"dweb:/ipfs/QmPwk5uVSHPQkepebrZSQ9xqgXdPABKqHwJZ2HkzNByLRE\"]},\"@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol\":{\"keccak256\":\"0xa69205e5009601cf13be78b1e2f500e1e3b1d8012f22d966e63975273f602038\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d919a0061e43f9878f6171b7f853cb92093805cd1160858c1884195a639b40a0\",\"dweb:/ipfs/QmRZsS3EYuLp75nBym1QQ4y6aQXGew75wSbv1uwqkvouUK\"]},\"@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol\":{\"keccak256\":\"0xd32fb7f530a914b1083d10a6bed3a586f2451952fec04fe542bcc670a82f7ba5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://af63ab940a34687c45f0ad84960b048fc5f49330c92ccb422db7822a444733b9\",\"dweb:/ipfs/QmUShaQEu8HS1GjDnsMJQ8jkZEBrecn6NuDZ3pfjY1gVck\"]},\"@openzeppelin/contracts/utils/Address.sol\":{\"keccak256\":\"0x3336baae5cf23e94274d75336e2d412193be508504aee185e61dc7d58cd05c8a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://39a05eec7083dfa0cc7e0cbfe6cd1bd085a340af1ede93fdff3ad047c5fb3d8e\",\"dweb:/ipfs/QmVApz5fCUq2QC8gKTsNNdCmcedJ3ETHp68zR5N3WUKS4r\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0x90565a39ae45c80f0468dc96c7b20d0afc3055f344c8203a0c9258239f350b9f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://26e8b38a7ac8e7b4463af00cf7fff1bf48ae9875765bf4f7751e100124d0bc8c\",\"dweb:/ipfs/QmWcsmkVr24xmmjfnBQZoemFniXjj3vwT78Cz6uqZW1Hux\"]},\"@openzeppelin/contracts/utils/Counters.sol\":{\"keccak256\":\"0x78450f4e3b722cce467b21e285f72ce5eaf361e9ba9dd2241a413926246773cd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f103065051300cd995fd4599ba91188d4071b92175b52f26110e02db091617c0\",\"dweb:/ipfs/QmSyDz67R2HCypDE8Pacn3voVwxw9x17NM66q47YgBnGqc\"]},\"@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0x391d3ba97ab6856a16b225d6ee29617ad15ff00db70f3b4df1ab5ea33aa47c9d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d636ba90bbbeed04a1ea7fe9ec2466757e30fd38ba2ca173636dbf69a518735e\",\"dweb:/ipfs/QmQwCB2BHnEuYR22PYt9HkpbgeFDhq4rHmaYqAZbX3WRC7\"]},\"@openzeppelin/contracts/utils/introspection/ERC165.sol\":{\"keccak256\":\"0x5718c5df9bd67ac68a796961df938821bb5dc0cd4c6118d77e9145afb187409b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d10e1d9b26042424789246603906ad06143bf9a928f4e99de8b5e3bdc662f549\",\"dweb:/ipfs/Qmejonoaj5MLekPus229rJQHcC6E9dz2xorjHJR84fMfmn\"]},\"@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0xa28007762d9da9db878dd421960c8cb9a10471f47ab5c1b3309bfe48e9e79ff4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://796ab6e88af7bf0e78def0f059310c903af6a312b565344e0ff524a0f26e81c6\",\"dweb:/ipfs/QmcsVgLgzWdor3UnAztUkXKNGcysm1MPneWksF72AvnwBx\"]},\"@openzeppelin/contracts/utils/math/SafeMath.sol\":{\"keccak256\":\"0x8666f020bd8fc9dc14f07e2ebc52b5f236ab4cdde7c77679b08cb2f94730043b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://163776cbf565c722232393aa2d62cbe8a2ffb5805986abf4906c00e1e07450a6\",\"dweb:/ipfs/QmPZoN9T3cb6o8bGhjBPZcz7im8T8DWhpr3tjLwhJJHx9N\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212206febd2b563830638b01b5c8550ba6d2593aa99782bb13ef8bc692249ed71d6cd64736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212206febd2b563830638b01b5c8550ba6d2593aa99782bb13ef8bc692249ed71d6cd64736f6c63430008000033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
   "sourceMap": "171:172:1:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "171:172:1:-:0;;;;;",
-  "source": "pragma solidity ^0.8.0;\r\n\r\nimport \"./ERC721Token.sol\";\r\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\r\nimport \"@openzeppelin/contracts/utils/math/SafeMath.sol\";\r\n\r\ncontract ReentrancyGuard{\r\n  uint private _executing;\r\n  modifier reentrancyGuard(){\r\n    require(_executing!=1,\"No\");\r\n    _executing=1;\r\n    _;\r\n    _executing=2;\r\n  }\r\n}\r\n\r\ncontract ERC721Wrapper is ReentrancyGuard, Ownable {\r\n  using SafeMath for uint256;\r\n  uint256 private initPrice = 50000000000000000; // 0.05 ETH\r\n\r\n\r\n  ERC721Token public baseToken;\r\n  address private baseTokenAddress;\r\n\r\n  mapping(address => bool) private paidForToken;\r\n  mapping(uint256 => uint256) private tokenPrices;\r\n\r\n  event Minted(address indexed recipient, uint256 tokenID);\r\n\r\n  constructor(\r\n    address payable TokenAddress\r\n    )\r\n    {\r\n      baseToken = ERC721Token(TokenAddress);\r\n      baseTokenAddress = TokenAddress;\r\n    }\r\n\r\n    // Function to receive Ether. msg.data must be empty\r\n    receive() external payable {}\r\n\r\n    // Fallback function is called when msg.data is not empty\r\n    fallback() external payable {}\r\n\r\n    function checkExist(uint256 tokenID) public view returns(bool)\r\n    {\r\n      return baseToken.exists(tokenID);\r\n    }\r\n\r\n    function getTokenAddress() public onlyOwner view returns(address)\r\n    {\r\n      return(baseTokenAddress);\r\n    }\r\n\r\n    function getBalance() public onlyOwner view returns(uint256) {\r\n      return address(this).balance;\r\n    }\r\n\r\n    function withdrawFunds() public onlyOwner {\r\n      uint256 balance = getBalance();\r\n      address owner = owner();\r\n      payable(owner).transfer(balance);\r\n    }\r\n\r\n    function checkTokenPrice(uint256 tokenID) public view returns(uint256){\r\n      return tokenPrices[tokenID];\r\n    }\r\n\r\n    function sendFee(address minter, string memory uri, uint256 id, uint256 newPrice) public reentrancyGuard payable{\r\n      require(checkExist(id) != true, \"Token already minted.\");\r\n      require(msg.value >=  initPrice, \"Must send 0.05 ETH minting fee.\");\r\n      (bool sent,) = address(this).call{value:msg.value}(\"\");\r\n      require(sent, \"Could not send ETH\");\r\n      paidForToken[msg.sender] = true;\r\n      mintNewPlot(minter, uri, id, newPrice);\r\n    }\r\n\r\n    function mintNewPlot(address recipient, string memory tokenURI, uint256 tokenID, uint256 newPrice) private returns(uint256)\r\n    {\r\n      require(paidForToken[recipient], \"Must pay minting fee.\");\r\n      require(checkExist(tokenID) != true, \"Token already minted, please purchase from current owner.\");\r\n      //must pay fee for each mint\r\n      paidForToken[recipient] = false;\r\n      tokenPrices[tokenID] = newPrice;\r\n      uint256 _newTokenID = baseToken.mintNFT(recipient, tokenURI, tokenID);\r\n      emit Minted(recipient, _newTokenID);\r\n      return _newTokenID;\r\n\r\n    }\r\n\r\n    function checkOwner(uint256 tokenID) public view returns(address){\r\n      address owner = baseToken.ownerOf(tokenID);\r\n      return owner;\r\n    }\r\n\r\n\r\n    function checkOperator(address owner) public onlyOwner view returns(bool)\r\n    {\r\n      return(baseToken.isApprovedForAll(owner, address(this)));\r\n    }\r\n\r\n    function purchaseToken(address payable from, address to, uint256 tokenID, uint256 newPrice) public payable\r\n    {\r\n      require(msg.sender != checkOwner(tokenID), \"You already own this plot.\");\r\n      require(msg.value >= tokenPrices[tokenID], \"Must send more ETH.\");\r\n      tokenPrices[tokenID] = newPrice;\r\n      (bool sent,) = from.call{value:msg.value}(\"\");\r\n      require(sent, \"Could not send ETH\");\r\n      baseToken.setApprovalForAll(to, address(this), true);\r\n      baseToken.safeTransferFrom(from, to, tokenID);\r\n    }\r\n\r\n    function checkBalance(address owner) public view returns(uint256)\r\n    {\r\n      return baseToken.balanceOf(owner);\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n}\r\n",
+  "source": "pragma solidity ^0.8.0;\r\n\r\nimport \"./ERC721Token.sol\";\r\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\r\nimport \"@openzeppelin/contracts/utils/math/SafeMath.sol\";\r\n\r\ncontract ReentrancyGuard{\r\n  uint private _executing;\r\n  modifier reentrancyGuard(){\r\n    require(_executing!=1,\"No\");\r\n    _executing=1;\r\n    _;\r\n    _executing=2;\r\n  }\r\n}\r\n\r\ncontract ERC721Wrapper is ReentrancyGuard, Ownable {\r\n  using SafeMath for uint256;\r\n  uint256 private initPrice = 50000000000000000; // 0.05 ETH\r\n\r\n\r\n  ERC721Token public baseToken;\r\n  address private baseTokenAddress;\r\n\r\n  mapping(address => bool) private paidForToken;\r\n  mapping(uint256 => uint256) private tokenPrices;\r\n\r\n  event Minted(address indexed recipient, uint256 tokenID);\r\n\r\n  constructor(\r\n    address payable TokenAddress\r\n    )\r\n    {\r\n      baseToken = ERC721Token(TokenAddress);\r\n      baseTokenAddress = TokenAddress;\r\n    }\r\n\r\n    // Function to receive Ether. msg.data must be empty\r\n    receive() external payable {}\r\n\r\n    // Fallback function is called when msg.data is not empty\r\n    fallback() external payable {}\r\n\r\n    function checkExist(uint256 tokenID) public view returns(bool)\r\n    {\r\n      return baseToken.exists(tokenID);\r\n    }\r\n\r\n    function getTokenAddress() public onlyOwner view returns(address)\r\n    {\r\n      return(baseTokenAddress);\r\n    }\r\n\r\n    function getBalance() public onlyOwner view returns(uint256) {\r\n      return address(this).balance;\r\n    }\r\n\r\n    function withdrawFunds() public onlyOwner {\r\n      uint256 balance = getBalance();\r\n      address owner = owner();\r\n      payable(owner).transfer(balance);\r\n    }\r\n\r\n    function checkTokenPrice(uint256 tokenID) public view returns(uint256){\r\n      return tokenPrices[tokenID];\r\n    }\r\n\r\n    function sendFee(address minter, string memory uri, uint256 id, uint256 newPrice) public reentrancyGuard payable{\r\n      require(checkExist(id) != true, \"Token already minted.\");\r\n      require(msg.value >=  initPrice, \"Must send 0.05 ETH minting fee.\");\r\n      (bool sent,) = address(this).call{value:msg.value}(\"\");\r\n      require(sent, \"Could not send ETH\");\r\n      paidForToken[msg.sender] = true;\r\n      mintNewPlot(minter, uri, id, newPrice);\r\n    }\r\n\r\n    function mintNewPlot(address recipient, string memory tokenURI, uint256 tokenID, uint256 newPrice) private returns(uint256)\r\n    {\r\n      require(paidForToken[recipient], \"Must pay minting fee.\");\r\n      require(checkExist(tokenID) != true, \"Token already minted, please purchase from current owner.\");\r\n      //must pay fee for each mint\r\n      paidForToken[recipient] = false;\r\n      tokenPrices[tokenID] = newPrice;\r\n      uint256 _newTokenID = baseToken.mintNFT(recipient, tokenURI, tokenID);\r\n      emit Minted(recipient, _newTokenID);\r\n      return _newTokenID;\r\n\r\n    }\r\n\r\n    function checkOwner(uint256 tokenID) public view returns(address){\r\n      address owner = baseToken.ownerOf(tokenID);\r\n      return owner;\r\n    }\r\n\r\n\r\n    function checkOperator(address owner) public onlyOwner view returns(bool)\r\n    {\r\n      return(baseToken.isApprovedForAll(owner, address(this)));\r\n    }\r\n\r\n    function purchaseToken(address payable from, address to, uint256 tokenID, uint256 newPrice) public payable\r\n    {\r\n      require(msg.sender != checkOwner(tokenID), \"You already own this plot.\");\r\n      require(msg.value >= tokenPrices[tokenID], \"Must send more ETH.\");\r\n      tokenPrices[tokenID] = newPrice;\r\n      (bool sent,) = from.call{value:msg.value}(\"\");\r\n      require(sent, \"Could not send ETH\");\r\n      baseToken.setApprovalForAll(to, address(this), true);\r\n      baseToken.safeTransferFrom(from, to, tokenID);\r\n    }\r\n\r\n    function checkBalance(address owner) public view returns(uint256)\r\n    {\r\n      return baseToken.balanceOf(owner);\r\n    }\r\n\r\n    function byIndex(address owner, uint256 index) public view returns(uint256)\r\n    {\r\n      return baseToken.tokenOfOwnerByIndex(owner, index);\r\n    }\r\n\r\n\r\n\r\n\r\n}\r\n",
   "sourcePath": "C:/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Wrapper.sol",
   "ast": {
     "absolutePath": "/C/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Wrapper.sol",
     "exportedSymbols": {
       "Address": [
-        2527
+        2543
       ],
       "Context": [
-        2549
+        2565
       ],
       "Counters": [
-        2623
+        2639
       ],
       "ERC165": [
-        2850
+        2866
       ],
       "ERC721": [
-        1570
+        1586
       ],
       "ERC721Enumerable": [
-        2044
+        2060
       ],
       "ERC721Token": [
         255
       ],
       "ERC721URIStorage": [
-        2172
+        2188
       ],
       "ERC721Wrapper": [
-        653
+        669
       ],
       "IERC165": [
-        2862
+        2878
       ],
       "IERC721": [
-        1688
+        1704
       ],
       "IERC721Enumerable": [
-        2203
+        2219
       ],
       "IERC721Metadata": [
-        2230
+        2246
       ],
       "IERC721Receiver": [
-        1706
+        1722
       ],
       "Ownable": [
-        757
+        773
       ],
       "ReentrancyGuard": [
         282
       ],
       "SafeMath": [
-        3174
+        3190
       ],
       "Strings": [
-        2826
+        2842
       ]
     },
-    "id": 654,
+    "id": 670,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -88,7 +88,7 @@
         "file": "./ERC721Token.sol",
         "id": 258,
         "nodeType": "ImportDirective",
-        "scope": 654,
+        "scope": 670,
         "sourceUnit": 256,
         "src": "27:27:1",
         "symbolAliases": [],
@@ -99,8 +99,8 @@
         "file": "@openzeppelin/contracts/access/Ownable.sol",
         "id": 259,
         "nodeType": "ImportDirective",
-        "scope": 654,
-        "sourceUnit": 758,
+        "scope": 670,
+        "sourceUnit": 774,
         "src": "56:52:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -110,8 +110,8 @@
         "file": "@openzeppelin/contracts/utils/math/SafeMath.sol",
         "id": 260,
         "nodeType": "ImportDirective",
-        "scope": 654,
-        "sourceUnit": 3175,
+        "scope": 670,
+        "sourceUnit": 3191,
         "src": "110:57:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -386,7 +386,7 @@
             "visibility": "internal"
           }
         ],
-        "scope": 654,
+        "scope": 670,
         "src": "171:172:1"
       },
       {
@@ -409,7 +409,7 @@
               "id": 285,
               "name": "Ownable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 757,
+              "referencedDeclaration": 773,
               "src": "390:7:1"
             },
             "id": 286,
@@ -419,16 +419,16 @@
         ],
         "contractDependencies": [
           282,
-          757,
-          2549
+          773,
+          2565
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 653,
+        "id": 669,
         "linearizedBaseContracts": [
-          653,
-          757,
-          2549,
+          669,
+          773,
+          2565,
           282
         ],
         "name": "ERC721Wrapper",
@@ -440,7 +440,7 @@
               "id": 287,
               "name": "SafeMath",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3174,
+              "referencedDeclaration": 3190,
               "src": "409:8:1"
             },
             "nodeType": "UsingForDirective",
@@ -462,7 +462,7 @@
             "mutability": "mutable",
             "name": "initPrice",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "434:45:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -505,7 +505,7 @@
             "mutability": "mutable",
             "name": "baseToken",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "500:28:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -538,7 +538,7 @@
             "mutability": "mutable",
             "name": "baseTokenAddress",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "533:32:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -565,7 +565,7 @@
             "mutability": "mutable",
             "name": "paidForToken",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "572:45:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -610,7 +610,7 @@
             "mutability": "mutable",
             "name": "tokenPrices",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "622:47:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -894,7 +894,7 @@
               "parameters": [],
               "src": "798:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "739:153:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -925,7 +925,7 @@
               "parameters": [],
               "src": "985:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "958:29:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -956,7 +956,7 @@
               "parameters": [],
               "src": "1086:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1058:30:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -1112,7 +1112,7 @@
               ],
               "src": "1152:6:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1096:117:1",
             "stateMutability": "view",
             "virtual": false,
@@ -1171,7 +1171,7 @@
                   "id": 350,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 700,
+                  "referencedDeclaration": 716,
                   "src": "1255:9:1"
                 },
                 "nodeType": "ModifierInvocation",
@@ -1220,7 +1220,7 @@
               ],
               "src": "1277:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1221:112:1",
             "stateMutability": "view",
             "virtual": false,
@@ -1244,7 +1244,7 @@
                           "referencedDeclaration": 4294967268,
                           "src": "1426:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                            "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                             "typeString": "contract ERC721Wrapper"
                           }
                         }
@@ -1252,7 +1252,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                            "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                             "typeString": "contract ERC721Wrapper"
                           }
                         ],
@@ -1321,7 +1321,7 @@
                   "id": 361,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 700,
+                  "referencedDeclaration": 716,
                   "src": "1370:9:1"
                 },
                 "nodeType": "ModifierInvocation",
@@ -1369,7 +1369,7 @@
               ],
               "src": "1392:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1341:106:1",
             "stateMutability": "view",
             "virtual": false,
@@ -1489,7 +1489,7 @@
                       "name": "owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 686,
+                      "referencedDeclaration": 702,
                       "src": "1561:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1639,7 +1639,7 @@
                   "id": 375,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 700,
+                  "referencedDeclaration": 716,
                   "src": "1487:9:1"
                 },
                 "nodeType": "ModifierInvocation",
@@ -1660,7 +1660,7 @@
               "parameters": [],
               "src": "1497:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1455:162:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -1790,7 +1790,7 @@
               ],
               "src": "1686:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1625:114:1",
             "stateMutability": "view",
             "virtual": false,
@@ -2146,7 +2146,7 @@
                               "referencedDeclaration": 4294967268,
                               "src": "2032:4:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                                "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                                 "typeString": "contract ERC721Wrapper"
                               }
                             }
@@ -2154,7 +2154,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                                "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                                 "typeString": "contract ERC721Wrapper"
                               }
                             ],
@@ -2669,7 +2669,7 @@
               "parameters": [],
               "src": "1859:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1747:455:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -3439,7 +3439,7 @@
               ],
               "src": "2324:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "2210:576:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -3526,7 +3526,7 @@
                       "lValueRequested": false,
                       "memberName": "ownerOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 906,
+                      "referencedDeclaration": 922,
                       "src": "2884:17:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_address_$",
@@ -3645,7 +3645,7 @@
               ],
               "src": "2850:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "2794:145:1",
             "stateMutability": "view",
             "virtual": false,
@@ -3684,7 +3684,7 @@
                                 "referencedDeclaration": 4294967268,
                                 "src": "3086:4:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                                  "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                                   "typeString": "contract ERC721Wrapper"
                                 }
                               }
@@ -3692,7 +3692,7 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                                  "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                                   "typeString": "contract ERC721Wrapper"
                                 }
                               ],
@@ -3761,7 +3761,7 @@
                           "lValueRequested": false,
                           "memberName": "isApprovedForAll",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1087,
+                          "referencedDeclaration": 1103,
                           "src": "3044:26:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_bool_$",
@@ -3815,7 +3815,7 @@
                   "id": 551,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 700,
+                  "referencedDeclaration": 716,
                   "src": "2994:9:1"
                 },
                 "nodeType": "ModifierInvocation",
@@ -3891,7 +3891,7 @@
               ],
               "src": "3016:6:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "2949:152:1",
             "stateMutability": "view",
             "virtual": false,
@@ -4527,7 +4527,7 @@
                             "referencedDeclaration": 4294967268,
                             "src": "3563:4:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                              "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                               "typeString": "contract ERC721Wrapper"
                             }
                           }
@@ -4535,7 +4535,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                              "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                               "typeString": "contract ERC721Wrapper"
                             }
                           ],
@@ -4624,7 +4624,7 @@
                       "lValueRequested": false,
                       "memberName": "setApprovalForAll",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1069,
+                      "referencedDeclaration": 1085,
                       "src": "3523:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bool_$returns$__$",
@@ -4724,7 +4724,7 @@
                       "lValueRequested": false,
                       "memberName": "safeTransferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1133,
+                      "referencedDeclaration": 1149,
                       "src": "3584:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -4878,7 +4878,7 @@
               "parameters": [],
               "src": "3221:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "3109:528:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -4932,7 +4932,7 @@
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 878,
+                      "referencedDeclaration": 894,
                       "src": "3732:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -5035,78 +5035,277 @@
               ],
               "src": "3701:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "3645:121:1",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 667,
+              "nodeType": "Block",
+              "src": "3855:67:1",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 663,
+                        "name": "owner",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 654,
+                        "src": "3901:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "id": 664,
+                        "name": "index",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 656,
+                        "src": "3908:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 661,
+                        "name": "baseToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 295,
+                        "src": "3871:9:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ERC721Token_$255",
+                          "typeString": "contract ERC721Token"
+                        }
+                      },
+                      "id": 662,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "tokenOfOwnerByIndex",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1800,
+                      "src": "3871:29:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
+                        "typeString": "function (address,uint256) view external returns (uint256)"
+                      }
+                    },
+                    "id": 665,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "3871:43:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 660,
+                  "id": 666,
+                  "nodeType": "Return",
+                  "src": "3864:50:1"
+                }
+              ]
+            },
+            "functionSelector": "ae9b6b59",
+            "id": 668,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "byIndex",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 657,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 654,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 668,
+                  "src": "3791:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 653,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3791:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 656,
+                  "mutability": "mutable",
+                  "name": "index",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 668,
+                  "src": "3806:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 655,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3806:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3790:30:1"
+            },
+            "returnParameters": {
+              "id": 660,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 659,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 668,
+                  "src": "3841:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 658,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3841:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3840:9:1"
+            },
+            "scope": 669,
+            "src": "3774:148:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 654,
-        "src": "347:3432:1"
+        "scope": 670,
+        "src": "347:3586:1"
       }
     ],
-    "src": "0:3781:1"
+    "src": "0:3935:1"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/kerpr/Desktop/NFT-Wrapper-Contract/contracts/ERC721Wrapper.sol",
     "exportedSymbols": {
       "Address": [
-        2527
+        2543
       ],
       "Context": [
-        2549
+        2565
       ],
       "Counters": [
-        2623
+        2639
       ],
       "ERC165": [
-        2850
+        2866
       ],
       "ERC721": [
-        1570
+        1586
       ],
       "ERC721Enumerable": [
-        2044
+        2060
       ],
       "ERC721Token": [
         255
       ],
       "ERC721URIStorage": [
-        2172
+        2188
       ],
       "ERC721Wrapper": [
-        653
+        669
       ],
       "IERC165": [
-        2862
+        2878
       ],
       "IERC721": [
-        1688
+        1704
       ],
       "IERC721Enumerable": [
-        2203
+        2219
       ],
       "IERC721Metadata": [
-        2230
+        2246
       ],
       "IERC721Receiver": [
-        1706
+        1722
       ],
       "Ownable": [
-        757
+        773
       ],
       "ReentrancyGuard": [
         282
       ],
       "SafeMath": [
-        3174
+        3190
       ],
       "Strings": [
-        2826
+        2842
       ]
     },
-    "id": 654,
+    "id": 670,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -5125,7 +5324,7 @@
         "file": "./ERC721Token.sol",
         "id": 258,
         "nodeType": "ImportDirective",
-        "scope": 654,
+        "scope": 670,
         "sourceUnit": 256,
         "src": "27:27:1",
         "symbolAliases": [],
@@ -5136,8 +5335,8 @@
         "file": "@openzeppelin/contracts/access/Ownable.sol",
         "id": 259,
         "nodeType": "ImportDirective",
-        "scope": 654,
-        "sourceUnit": 758,
+        "scope": 670,
+        "sourceUnit": 774,
         "src": "56:52:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5147,8 +5346,8 @@
         "file": "@openzeppelin/contracts/utils/math/SafeMath.sol",
         "id": 260,
         "nodeType": "ImportDirective",
-        "scope": 654,
-        "sourceUnit": 3175,
+        "scope": 670,
+        "sourceUnit": 3191,
         "src": "110:57:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5423,7 +5622,7 @@
             "visibility": "internal"
           }
         ],
-        "scope": 654,
+        "scope": 670,
         "src": "171:172:1"
       },
       {
@@ -5446,7 +5645,7 @@
               "id": 285,
               "name": "Ownable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 757,
+              "referencedDeclaration": 773,
               "src": "390:7:1"
             },
             "id": 286,
@@ -5456,16 +5655,16 @@
         ],
         "contractDependencies": [
           282,
-          757,
-          2549
+          773,
+          2565
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 653,
+        "id": 669,
         "linearizedBaseContracts": [
-          653,
-          757,
-          2549,
+          669,
+          773,
+          2565,
           282
         ],
         "name": "ERC721Wrapper",
@@ -5477,7 +5676,7 @@
               "id": 287,
               "name": "SafeMath",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3174,
+              "referencedDeclaration": 3190,
               "src": "409:8:1"
             },
             "nodeType": "UsingForDirective",
@@ -5499,7 +5698,7 @@
             "mutability": "mutable",
             "name": "initPrice",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "434:45:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5542,7 +5741,7 @@
             "mutability": "mutable",
             "name": "baseToken",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "500:28:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5575,7 +5774,7 @@
             "mutability": "mutable",
             "name": "baseTokenAddress",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "533:32:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5602,7 +5801,7 @@
             "mutability": "mutable",
             "name": "paidForToken",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "572:45:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5647,7 +5846,7 @@
             "mutability": "mutable",
             "name": "tokenPrices",
             "nodeType": "VariableDeclaration",
-            "scope": 653,
+            "scope": 669,
             "src": "622:47:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5931,7 +6130,7 @@
               "parameters": [],
               "src": "798:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "739:153:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -5962,7 +6161,7 @@
               "parameters": [],
               "src": "985:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "958:29:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -5993,7 +6192,7 @@
               "parameters": [],
               "src": "1086:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1058:30:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -6149,7 +6348,7 @@
               ],
               "src": "1152:6:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1096:117:1",
             "stateMutability": "view",
             "virtual": false,
@@ -6208,7 +6407,7 @@
                   "id": 350,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 700,
+                  "referencedDeclaration": 716,
                   "src": "1255:9:1"
                 },
                 "nodeType": "ModifierInvocation",
@@ -6257,7 +6456,7 @@
               ],
               "src": "1277:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1221:112:1",
             "stateMutability": "view",
             "virtual": false,
@@ -6281,7 +6480,7 @@
                           "referencedDeclaration": 4294967268,
                           "src": "1426:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                            "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                             "typeString": "contract ERC721Wrapper"
                           }
                         }
@@ -6289,7 +6488,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                            "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                             "typeString": "contract ERC721Wrapper"
                           }
                         ],
@@ -6358,7 +6557,7 @@
                   "id": 361,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 700,
+                  "referencedDeclaration": 716,
                   "src": "1370:9:1"
                 },
                 "nodeType": "ModifierInvocation",
@@ -6406,7 +6605,7 @@
               ],
               "src": "1392:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1341:106:1",
             "stateMutability": "view",
             "virtual": false,
@@ -6526,7 +6725,7 @@
                       "name": "owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 686,
+                      "referencedDeclaration": 702,
                       "src": "1561:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -6676,7 +6875,7 @@
                   "id": 375,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 700,
+                  "referencedDeclaration": 716,
                   "src": "1487:9:1"
                 },
                 "nodeType": "ModifierInvocation",
@@ -6697,7 +6896,7 @@
               "parameters": [],
               "src": "1497:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1455:162:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -6827,7 +7026,7 @@
               ],
               "src": "1686:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1625:114:1",
             "stateMutability": "view",
             "virtual": false,
@@ -7183,7 +7382,7 @@
                               "referencedDeclaration": 4294967268,
                               "src": "2032:4:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                                "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                                 "typeString": "contract ERC721Wrapper"
                               }
                             }
@@ -7191,7 +7390,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                                "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                                 "typeString": "contract ERC721Wrapper"
                               }
                             ],
@@ -7706,7 +7905,7 @@
               "parameters": [],
               "src": "1859:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "1747:455:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -8476,7 +8675,7 @@
               ],
               "src": "2324:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "2210:576:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -8563,7 +8762,7 @@
                       "lValueRequested": false,
                       "memberName": "ownerOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 906,
+                      "referencedDeclaration": 922,
                       "src": "2884:17:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_address_$",
@@ -8682,7 +8881,7 @@
               ],
               "src": "2850:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "2794:145:1",
             "stateMutability": "view",
             "virtual": false,
@@ -8721,7 +8920,7 @@
                                 "referencedDeclaration": 4294967268,
                                 "src": "3086:4:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                                  "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                                   "typeString": "contract ERC721Wrapper"
                                 }
                               }
@@ -8729,7 +8928,7 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                                  "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                                   "typeString": "contract ERC721Wrapper"
                                 }
                               ],
@@ -8798,7 +8997,7 @@
                           "lValueRequested": false,
                           "memberName": "isApprovedForAll",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1087,
+                          "referencedDeclaration": 1103,
                           "src": "3044:26:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_bool_$",
@@ -8852,7 +9051,7 @@
                   "id": 551,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 700,
+                  "referencedDeclaration": 716,
                   "src": "2994:9:1"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8928,7 +9127,7 @@
               ],
               "src": "3016:6:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "2949:152:1",
             "stateMutability": "view",
             "virtual": false,
@@ -9564,7 +9763,7 @@
                             "referencedDeclaration": 4294967268,
                             "src": "3563:4:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                              "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                               "typeString": "contract ERC721Wrapper"
                             }
                           }
@@ -9572,7 +9771,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_ERC721Wrapper_$653",
+                              "typeIdentifier": "t_contract$_ERC721Wrapper_$669",
                               "typeString": "contract ERC721Wrapper"
                             }
                           ],
@@ -9661,7 +9860,7 @@
                       "lValueRequested": false,
                       "memberName": "setApprovalForAll",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1069,
+                      "referencedDeclaration": 1085,
                       "src": "3523:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bool_$returns$__$",
@@ -9761,7 +9960,7 @@
                       "lValueRequested": false,
                       "memberName": "safeTransferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1133,
+                      "referencedDeclaration": 1149,
                       "src": "3584:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -9915,7 +10114,7 @@
               "parameters": [],
               "src": "3221:0:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "3109:528:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -9969,7 +10168,7 @@
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 878,
+                      "referencedDeclaration": 894,
                       "src": "3732:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -10072,18 +10271,217 @@
               ],
               "src": "3701:9:1"
             },
-            "scope": 653,
+            "scope": 669,
             "src": "3645:121:1",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 667,
+              "nodeType": "Block",
+              "src": "3855:67:1",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 663,
+                        "name": "owner",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 654,
+                        "src": "3901:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "id": 664,
+                        "name": "index",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 656,
+                        "src": "3908:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 661,
+                        "name": "baseToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 295,
+                        "src": "3871:9:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ERC721Token_$255",
+                          "typeString": "contract ERC721Token"
+                        }
+                      },
+                      "id": 662,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "tokenOfOwnerByIndex",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1800,
+                      "src": "3871:29:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
+                        "typeString": "function (address,uint256) view external returns (uint256)"
+                      }
+                    },
+                    "id": 665,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "3871:43:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 660,
+                  "id": 666,
+                  "nodeType": "Return",
+                  "src": "3864:50:1"
+                }
+              ]
+            },
+            "functionSelector": "ae9b6b59",
+            "id": 668,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "byIndex",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 657,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 654,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 668,
+                  "src": "3791:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 653,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3791:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 656,
+                  "mutability": "mutable",
+                  "name": "index",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 668,
+                  "src": "3806:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 655,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3806:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3790:30:1"
+            },
+            "returnParameters": {
+              "id": 660,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 659,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 668,
+                  "src": "3841:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 658,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3841:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3840:9:1"
+            },
+            "scope": 669,
+            "src": "3774:148:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 654,
-        "src": "347:3432:1"
+        "scope": 670,
+        "src": "347:3586:1"
       }
     ],
-    "src": "0:3781:1"
+    "src": "0:3935:1"
   },
   "compiler": {
     "name": "solc",
@@ -10091,7 +10489,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-11-21T18:45:19.075Z",
+  "updatedAt": "2021-11-21T21:21:07.483Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -127,5 +127,21 @@ contract("ERC721Wrapper", async (accounts)=> {
     expect(tokenBalance.toString()).to.equal("1");
   })
 
+  it("Token of owner by index", async()=>{
+  let overrides = {
+    from:accounts[1],
+    value: "500000000000000000"
+  }
+  await instance.sendFee(accounts[1], "testing", 334, ethers.utils.parseEther("0.06"), overrides);
+  const tokenBalance = await instance.checkBalance(accounts[1]);
+  var checkSum = 0;
+  for(var i = 0;i<tokenBalance;i++){
+    var ownedToken = await instance.byIndex(accounts[1],i);
+    var id = parseInt(ownedToken.toString())
+    checkSum+=id;
+  }
+  expect(checkSum).to.equal(667);
+})
+
 
 })
