@@ -15,8 +15,8 @@ contract ERC721Token is ERC721URIStorage, ERC721Enumerable {
 
   event Minted(address indexed recipient, uint256 tokenID);
 
-  constructor(uint256 cap) ERC721("MarsToken", "MARS"){
-    require(cap > 0, "MarsToken: cap must be non-zero");
+  constructor(uint256 cap) ERC721("TOKENNAME", "TOK"){
+    require(cap > 0, "ERC721: cap must be non-zero");
     _cap = cap;
   }
 

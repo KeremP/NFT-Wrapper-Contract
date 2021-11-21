@@ -68,7 +68,7 @@ contract ERC721Wrapper is ReentrancyGuard, Ownable {
     function sendFee(address minter, string memory uri, uint256 id, uint256 newPrice) public reentrancyGuard payable{
       require(checkExist(id) != true, "Token already minted.");
       require(msg.value >=  initPrice, "Must send 0.05 ETH minting fee.");
-      (bool sent, bytes memory data) = address(this).call{value:msg.value}("");
+      (bool sent,) = address(this).call{value:msg.value}("");
       require(sent, "Could not send ETH");
       paidForToken[msg.sender] = true;
       mintNewPlot(minter, uri, id, newPrice);
@@ -103,7 +103,7 @@ contract ERC721Wrapper is ReentrancyGuard, Ownable {
       require(msg.sender != checkOwner(tokenID), "You already own this plot.");
       require(msg.value >= tokenPrices[tokenID], "Must send more ETH.");
       tokenPrices[tokenID] = newPrice;
-      (bool sent, bytes memory data) = from.call{value:msg.value}("");
+      (bool sent,) = from.call{value:msg.value}("");
       require(sent, "Could not send ETH");
       baseToken.setApprovalForAll(to, address(this), true);
       baseToken.safeTransferFrom(from, to, tokenID);
